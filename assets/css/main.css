@@ -268,7 +268,7 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-bottom: solid 2px;
-		margin: 3rem 0;
+		margin: 1rem 0;
 	}
 
 		hr.major {
@@ -3625,6 +3625,7 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		
 	}
 
 		#nav ul.divided li {
@@ -3650,6 +3651,7 @@ input, select, textarea {
 		#nav a {
 			color: #ffffff;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
+	
 		}
 
 			#nav a:hover {
@@ -4383,7 +4385,7 @@ input, select, textarea {
 		}
 
 	#copyright {
-		color: #ffffff;
+		color: #e7dddd;
 		position: relative;
 		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
@@ -4394,7 +4396,7 @@ input, select, textarea {
 		line-height: 1.5;
 		text-align: center;
 		text-transform: uppercase;
-		margin: 4rem auto 8rem auto;
+		margin: 2rem auto 1rem auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
@@ -4686,4 +4688,7 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	
 	}
+
+
