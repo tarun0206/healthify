@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+.diff{
+	color: #89ff89;
+	font-weight: 700;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3301,7 +3306,7 @@ input, select, textarea {
 		-moz-justify-content: -moz-flex-end;
 		-webkit-justify-content: -webkit-flex-end;
 		-ms-justify-content: -ms-flex-end;
-		justify-content: flex-end;
+		justify-content: flex-start;
 		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
@@ -3332,7 +3337,7 @@ input, select, textarea {
 		}
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
-			color: #ffffff;
+			color: #4cff4c;
 		}
 
 		#intro blockquote {
@@ -3797,7 +3802,18 @@ input, select, textarea {
 			#main > .post.featured {
 				text-align: center;
 			}
-
+			#mAndM{
+				color: #72c372;
+			}
+			#mAndM:hover{
+				font-size: 0;
+			}
+			#mAndM:hover:after{
+				opacity: 1;
+				transition: 0.5s;
+				font-size: 4rem;
+				content: attr(data-hover);
+			}
 			@media screen and (max-width: 1280px) {
 
 				#main > .post {
